@@ -67,6 +67,12 @@
         .features__item {
             margin: 0;
             width: 100%;
+            &:not(:last-child) .features__description {
+                margin-bottom: 30px;
+            }
+        }
+        .features__title {
+            text-align: center;
         }
     }
     .features__thumb {

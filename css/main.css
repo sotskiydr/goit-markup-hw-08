@@ -633,6 +633,12 @@ img {
     margin: 0;
     width: 100%;
   }
+  .features__list .features__item:not(:last-child) .features__description {
+    margin-bottom: 30px;
+  }
+  .features__list .features__title {
+    text-align: center;
+  }
   .features__thumb {
     width: 100%;
   }
