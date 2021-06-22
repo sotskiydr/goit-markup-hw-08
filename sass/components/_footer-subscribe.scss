@@ -1,6 +1,4 @@
 .subscribe__container {
-    margin-left: 93px;
-    width: 100%;
     .subscribe__title {
         font-weight: 700;
         font-size: 14px;
@@ -66,6 +64,12 @@
             height: 24px;
             margin-left: 10px;
         }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .subscribe__form .subscribe__input {
+        width: 358px;
     }
 }
 
