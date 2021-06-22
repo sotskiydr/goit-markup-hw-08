@@ -2,7 +2,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100vw;
+    width: 528px;
     max-height: 100vh;
     transform: translate(-50%, -50%) scale(1);
     background-color: $additionalColor;
@@ -132,6 +132,20 @@
     }
 }
 
+@media screen and (max-width:1199px) {
+    .backdrop {
+        width: 100%;
+        .backdrop__container {
+            max-width: 450px;
+            max-height: 609px;
+        }
+        .backdrop__title {
+            font-size: 20px;
+            line-height: calc(30/20);
+        }
+    }
+}
+
 @media screen and (max-width:767px) {
     .backdrop {
         width: 100%;
@@ -146,11 +160,12 @@
     }
 }
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
     .backdrop {
+        width: 100%;
         .backdrop__container {
-            width: 450px;
-            height: 609px;
+            max-width: 100%;
+            max-height: 100%;
         }
     }
 }
