@@ -52,35 +52,6 @@
     }
 }
 
-@media screen and (max-width:767px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile1x.jpg);
-        background-size: cover;
-    }
-    .hero__container {
-        max-width: 450px;
-        max-height: 400px;
-        padding: 118px 0px;
-        .hero__title {
-            font-size: 26px;
-            line-height: calc(42/26);
-            letter-spacing: 0.06em;
-            max-width: 360px;
-        }
-    }
-}
-
-@media (min-device-pixel-ratio:2) and (max-width:767px),
-(min-resolution:192dpi) and (max-width:767px),
-(min-resolution:2dppx) and (max-width:767px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile2x.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-}
-
 @media screen and(max-width:1199px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet1x.jpg);
@@ -106,6 +77,35 @@
 (min-resolution:2dppx) and (max-width:1199px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile1x.jpg);
+        background-size: cover;
+    }
+    .hero__container {
+        max-width: 450px;
+        max-height: 400px;
+        padding: 118px 0px;
+        .hero__title {
+            font-size: 26px;
+            line-height: calc(42/26);
+            letter-spacing: 0.06em;
+            max-width: 360px;
+        }
+    }
+}
+
+@media (min-device-pixel-ratio:2) and (max-width:767px),
+(min-resolution:192dpi) and (max-width:767px),
+(min-resolution:2dppx) and (max-width:767px) {
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile2x.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

@@ -1,5 +1,6 @@
 .footer {
     background-color: #2F303A;
+    padding: 60px 15px;
 }
 
 .address__container {
@@ -9,7 +10,6 @@
 .footer__sections {
     display: flex;
     align-items: baseline;
-    padding: 60px 15px;
 }
 
 .footer__tablet-container {
@@ -28,6 +28,9 @@
             align-self: center;
             justify-content: space-around;
             margin: 0;
+            .join__container {
+                margin: 0;
+            }
         }
         .address__container {
             margin-right: 165px;
@@ -46,10 +49,11 @@
         .footer__tablet-container {
             display: flex;
             flex-direction: column;
-            margin: 0;
+            margin-bottom: 60px;
         }
         .address__container {
             margin: 0;
+            margin-bottom: 60px;
         }
     }
 }

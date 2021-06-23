@@ -67,7 +67,7 @@
         .features__item {
             margin: 0;
             width: 100%;
-            &:not(:last-child) .features__description {
+            &:not(:last-child) {
                 margin-bottom: 30px;
             }
         }
