@@ -995,6 +995,9 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .footer {
+    padding: 60px 0px;
+  }
   .footer .footer__sections {
     display: flex;
     flex-direction: column;
