@@ -1640,6 +1640,12 @@ img {
   border-color: #2196F3;
 }
 
+@media screen and (max-width: 1199px) {
+  .portfolio__filter-list {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .portfolio__filter-list {
     display: flex;
